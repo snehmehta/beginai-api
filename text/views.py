@@ -35,7 +35,7 @@ def models(request):
 
     result = {
         'num_of_models': len(model_list),
-        'models': raw_model_list,
+        'models': model_list,
     }
     
     return Response(result)

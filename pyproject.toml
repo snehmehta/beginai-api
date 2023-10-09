@@ -15,6 +15,9 @@ django-extensions = "^3.2.3"
 werkzeug = "^2.3.7"
 requests = "^2.31.0"
 together = "^0.1.8"
+discord-py-interactions = "^5.10.0"
+discord-py = "^2.3.2"
+python-dotenv = "^1.0.0"
 
 
 [build-system]

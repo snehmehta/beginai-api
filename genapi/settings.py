@@ -36,6 +36,12 @@ if DEBUG:
 else:
     SECRET_KEY = env("SECRET_KEY")
 
+DISCORD_TOKEN = env('DISCORD_TOKEN')
+print(os.path.join(BASE_DIR, '.env'))
+print(f'from settings: {DISCORD_TOKEN}')
+
+
+
 # SECURITY WARNING: don't run with debug turned on in production!
 
 ALLOWED_HOSTS = ["*"]
@@ -148,3 +154,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 API_KEY = env('TOGETHER_API_KEY')
+DISCORD_TOKEN = env('DISCORD_TOKEN')
